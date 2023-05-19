@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+div#contenedor{
+margin: 0px auto;
+width: 1170px;
+height: 1135px;
+position: relative;
+
+}
+
+body{
+background-image: url("../img/page-bg-1.jpg");
+
+}
+
+div#header{
+    width: 1170px;
+    height: 100px;
+    background-color: black;
+    border: 3px solid #C0A585;
+}
+
+
+
+
+
+
+div#galeria{
+
+
+width: 770px;
+height: 350px;
+float: left;
+background-color: aquamarine;
+
+
+}
+
+
+div#noticia{
+width: 400px;
+height: 350px;
+float: right;
+background-color: burlywood;
+
+}
+
+
+div#mid2 div#images {
+width: 292.5px;
+height: 220px;
+float: left;
+background-color: #525252;
+
+}
+
+p{
+    clear: both;
+}
+
+
+   
+
+

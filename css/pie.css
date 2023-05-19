@@ -1,0 +1,255 @@
+div#pie{
+    width: 1170px;
+    height: 290px;
+    background-color: black;
+    }
+
+
+div#pie div#partearriba {
+    width: 1170px;
+    height: 214px;
+    list-style-type: none;
+
+}
+
+div#pie div#partearriba ul li {
+
+    width: 290.5px;
+    height: 214px;
+    float: left;
+    color: white;
+    list-style-type: none;
+
+    }
+
+div.zonalogo{
+    width: 116px; height: 40px;
+}
+
+div.zonaredes{
+    width: 255px;
+height: 46px;
+}
+div.zonaredes h1.fbook{
+    display: block;
+    float: left ;
+    height: 46px;
+    width: 46px;
+background-image: url("/img/social-icons.png");
+    }
+
+    div.zonaredes h1.fbook:hover{
+        display: block;
+        float: left ;
+        height: 46px;
+        width: 46px;
+    background-image: url("/img/social-icons.png");
+    background-position: 0% 100%;
+        }
+
+    div.zonaredes h1.tw{
+        float: left;
+        height: 46px;
+        width: 46px;
+    background-image: url("/img/social-icons.png"); 
+    background-position: 25% 0%;
+        }
+
+        div.zonaredes h1.tw:hover{
+            float: left;
+            height: 46px;
+            width: 46px;
+        background-image: url("/img/social-icons.png"); 
+        background-position: 25% 100%;
+            }
+
+        div.zonaredes h1.red{
+            float: left;
+            height: 46px;
+            width: 46px;
+        background-image: url("/img/social-icons.png"); 
+        background-position: 50% 0%;
+            }
+
+            div.zonaredes h1.red:hover{
+                float: left;
+                height: 46px;
+                width: 46px;
+            background-image: url("/img/social-icons.png"); 
+            background-position: 50% 100%;
+                }
+
+
+            div.zonaredes h1.wifi{
+                float: left;
+                height: 46px;
+                width: 46px;
+            background-image: url("/img/social-icons.png"); 
+            background-position: 75% 0%;
+                }
+
+                div.zonaredes h1.wifi:hover{
+                    float: left;
+                    height: 46px;
+                    width: 46px;
+                background-image: url("/img/social-icons.png"); 
+                background-position: 75% 100%;
+                    }
+                
+            div.zonaredes h1.arbol{
+                float: left;
+                height: 46px;
+                width: 46px;
+            background-image: url("/img/social-icons.png"); 
+            background-position: 100% 0%;
+                }
+
+
+                div.zonaredes h1.arbol:hover{
+                    float: left;
+                    height: 46px;
+                    width: 46px;
+                background-image: url("/img/social-icons.png"); 
+                background-position: 100% 100%;
+                    }
+
+
+div#pie div#partearriba ul li#sobrenosotros h3{
+margin: 20px;
+margin-left: 60px;
+}
+        
+div#pie div#partearriba ul li#sobrenosotros div.zonalogo{
+    margin-left: 60px;
+    margin-bottom: 10px;
+    }
+    div#pie div#partearriba ul li#sobrenosotros p{
+        margin-left: 60px;
+        margin-bottom: 5px;
+        }
+
+
+        div#pie div#partearriba ul li#sobrenosotros div.zonaredes{
+            margin-left: 60px;
+            margin-top: 15px;
+            }
+
+            div#pie div#partearriba ul li#sobrenosotros div.zonaredes h1{
+                
+                margin-right: 5px;
+                }
+
+
+div#pie div#partearriba ul li#mapa iframe{
+
+width: 200px;
+height: 200px;
+margin-left: 55px;
+margin-top: 10px;
+
+
+}         
+
+div#partearriba ul li#latestposts h3   {
+
+margin: 20px;
+margin-left: 60px;
+
+}
+
+div#partearriba ul li#latestposts h4,p   {
+    margin-left: 60px;
+
+
+    }
+
+
+    div#partearriba ul li#latestposts div.noticiaFooter   {
+       height: 90px; width: 150px;
+       border: 1px solid yellow ;
+        margin-left: 60px;
+    
+        }
+
+
+        
+    div#partearriba ul li#latestposts div.fechaNoticia   {
+        border: 1px solid yellow ;
+         margin-left: 60px;
+            width: 150px;
+            height: 20px;
+            margin-top: 5px;
+         }
+
+
+
+     li#photos iframe{
+        margin-top: 23px;
+     }
+
+
+div#pie div.parteabajo{
+
+width: 1170px;
+height: 60px;
+margin-top: 10px;
+
+}
+
+div#pie div.parteabajo div.contenedorPie ul {
+    color: white;
+    list-style-type: none;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+div#pie div.parteabajo div.contenedorPie  {
+    height: 50px;
+    background-color: #4B4B4B;
+    margin-left: 60px;
+width: 1050px;
+
+}
+
+
+
+div#pie div.parteabajo div.contenedorPie ul#copy {
+  width: 501px;
+  float: left;
+  color: #e5e5e5;
+
+
+
+}
+
+div#pie div.parteabajo div.contenedorPie ul#menufooter{
+    width:  335px;
+    float: right;
+
+}
+
+div#pie div.parteabajo div.contenedorPie ul#menufooter li a{
+  
+color: white;
+}
+
+div#pie div.parteabajo div.contenedorPie ul#menufooter li{
+    float: left;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+div#pie div.parteabajo div.contenedorPie ul#menufooter li:hover a{
+    
+    color: yellow;
+}
+    
+    
+    
+    
+   

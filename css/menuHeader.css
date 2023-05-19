@@ -1,0 +1,94 @@
+div#menu{
+    width: 790px;
+   height: 100px;
+   float: right;
+   position: relative;
+}
+
+div#contenedor div#header div#menu ul li{
+
+float: left;
+padding: 11px;
+margin-top: 30px;
+margin-left: 0px;
+list-style: none;
+
+
+}
+
+
+div#contenedor div#header div#menu ul li#hover{
+
+    float: left;
+    padding: 28px;
+    margin-top: 15px;
+    margin-left: 0px;
+    list-style: none;
+    width: 75px;
+    
+    
+    }
+
+
+
+div#contenedor div#header div#menu ul li a{
+    display: block;
+    text-align: center;
+   text-decoration: none;
+   color: #e5e5e5;
+
+   }
+
+div#contenedor div#header div#menu ul li.imagen{
+background-image: url(../img/glyphicons-halflings.png);
+background-position: 70% 80%;
+position: absolute;
+left: 90px;
+top: 4px;
+
+   
+   
+}    
+
+
+div#contenedor div#header div#menu ul li.imagen2{
+   background-image: url(../img/glyphicons-halflings.png);
+   background-position: 70% 80%;
+   position: absolute;
+   left:  353px;
+   top: 4px;
+   
+       
+       
+   }  
+
+
+
+   div#contenedor div#header div#menu ul li.imagen3{
+    background-image: url(../img/glyphicons-halflings.png);
+    background-position: 70% 80%;
+    position: absolute;
+    left:  495px;
+    top: 4px;
+    
+        
+        
+    }
+
+    div#contenedor div#header div#menu ul li.imagen4{
+        background-image: url(../img/glyphicons-halflings.png);
+        background-position: 70% 80%;
+        position: absolute;
+        left:  613px;
+        top: 4px;
+        
+            
+            
+        }
+
+div#contenedor div#header div#menu ul li#hover:hover{
+
+
+background-color: #C0A585;
+border-radius: 10px;
+}

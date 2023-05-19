@@ -1,0 +1,95 @@
+
+
+
+div#mid2 div div.imagen{
+
+width: 230px;
+border: 1px solid red;
+height: 170px;
+margin-left: 20px;
+margin-top: 10px;
+}   
+
+div#mid2 div div.imagen div.botones{
+
+    width: 100px;
+    height: 40px;
+    float: right;
+    margin-top: 128px;
+    position: relative;
+    }   
+    
+div#mid2{
+
+    position: relative;
+}
+
+
+div#mid2 div div.imagen div.botones h3.lupa{
+
+    background-image: url("../img/glyphicons-halflings.png");
+    width: 27px;
+    height: 20px;
+background-color: darkgray;    
+background-position: 9.5% -1% ;
+position: absolute;
+left: 43px;
+top: 21px;
+
+}
+
+
+div#mid2 div div.imagen div.botones h3.lupa:hover{
+
+    background-image: url("../img/glyphicons-halflings-white.png");
+  
+background-position: 9.5% -1% ;
+scale: 1.5;
+transition: all 0.5s linear 0s;
+
+
+}
+
+
+
+div#mid2 div div.imagen div.botones h3.categorias{
+
+    background-image: url("../img/glyphicons-halflings.png");
+    width: 27px;
+    height: 20px;
+background-color: darkgray;    
+background-position: 74.5% 33% ;
+position: absolute;
+left: 73px;
+top: 21px;
+}
+
+
+div#mid2 div div.imagen div.botones h3.categorias:hover{
+
+    background-image: url("../img/glyphicons-halflings-white.png");
+    scale: 1.5;
+    transition: all 0.5s linear 0s;
+
+background-position: 74.5% 33% ;
+
+}
+
+
+div#mid2 div div.textodebajo{
+
+width: 230px;
+height: 30px;
+border: 1px solid blue;
+margin-left: 20px;
+margin-top: 5px;
+
+
+
+
+}div#mid2 div div.textodebajo p{
+
+
+    margin-left: 0px;
+    font-family: 'Oswald', sans-serif;
+}

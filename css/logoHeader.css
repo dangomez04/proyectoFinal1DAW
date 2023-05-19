@@ -1,0 +1,22 @@
+div#logo{
+
+    width: 380px;
+    height: 100px;
+    float: left;
+    
+    }
+
+
+div#logo img{
+    float: left;
+}
+div#logo p{
+    position: absolute;
+    left: 70px;
+    top: 35px;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #e5e5e5;
+  }
+
+    
