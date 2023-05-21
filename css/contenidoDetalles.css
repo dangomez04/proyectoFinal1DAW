@@ -1,0 +1,128 @@
+    div#contenido{
+
+    height: 788px;
+    width: 1170px;
+
+    }
+
+    div.imagen{
+
+    width: 570px; height: 788px;
+    background-image: url("../img/iaaa.jpg");
+    float: left;
+    }
+
+
+    div.info{
+        float: right;
+        width: 600px;
+        height: 788px;
+        background-color: #E1D4BB;
+    }
+
+    div.info div.titulo{
+
+        width: 250px;
+        height: 50px;
+        margin: 50px;
+
+    }
+
+
+    div.info div.titulo h1{
+
+        font-size: 25px;
+        font-family: 'Oswald', sans-serif;
+
+    }
+
+
+    div.desc{
+        width: 350px;height: 100px;
+        margin: 50px;
+        margin-top: -40px;
+    }
+
+    div.mastexto{
+
+        width: 350px;height: 100px;
+        margin: 50px;
+        margin-top: -60px;
+    }
+
+    div.mastexto p{
+        margin-left: 0px;
+
+    }
+
+   div.parteAbajo{
+
+height: 400px;width: 400px;
+margin: 50px;
+
+   } 
+
+   div.parteAbajo p{
+    margin-left: 0px;
+
+    font-size: 20px;
+   }
+
+   div.parteAbajo p:nth-child(2){
+    margin-bottom: 15px;
+   }
+
+   div.parteAbajo p:nth-child(4){
+    margin-bottom: 15px;
+   }
+
+   div.parteAbajo p:nth-child(6){
+    margin-bottom: 15px;
+   }
+   div.parteAbajo p:nth-child(8){
+    margin-bottom: 15px;
+   }
+
+
+
+   div.botones {
+
+    width: 400px;
+    height: 30px;
+    position: relative;
+   }
+
+   div.botones a.pr{
+    float: left ;
+    font-size: 15px;
+    background-color: #F9FBE7 ;
+    padding: 5px;
+    border-radius: 10px;
+    color: #E57C23;
+
+   }
+
+   div.botones div.der a{
+    float: right;
+    background-color: #F9FBE7 ;
+    border-radius: 10px;
+    padding: 5px;
+    color: #E57C23;
+    width: 70px;
+    height: 15px;
+    margin-left: 30px;
+    text-align: right   ;
+
+
+   }
+
+   div.botones div.der p.imagenflecha{
+
+        background-image: url("../img/glyphicons-halflings.png");
+        background-position: 53% 70%;
+        height: 30px;
+        width: 20px;
+        position: absolute;
+        left: 320px;
+        top: 1px;
+   }

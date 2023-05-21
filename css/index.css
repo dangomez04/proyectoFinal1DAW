@@ -18,10 +18,10 @@ position: relative;
 
 }
 
-body{
-background-image: url("../img/page-bg-1.jpg");
+    body{
+    background-image: url("../img/page-bg-1.jpg");
 
-}
+    }
 
 div#header{
     width: 1170px;

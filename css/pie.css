@@ -30,7 +30,7 @@ div.zonaredes{
     width: 255px;
 height: 46px;
 }
-div.zonaredes h1.fbook{
+div.zonaredes a.fbook{
     display: block;
     float: left ;
     height: 46px;
@@ -38,7 +38,7 @@ div.zonaredes h1.fbook{
 background-image: url("/img/social-icons.png");
     }
 
-    div.zonaredes h1.fbook:hover{
+    div.zonaredes a.fbook:hover{
         display: block;
         float: left ;
         height: 46px;
@@ -47,7 +47,7 @@ background-image: url("/img/social-icons.png");
     background-position: 0% 100%;
         }
 
-    div.zonaredes h1.tw{
+    div.zonaredes a.tw{
         float: left;
         height: 46px;
         width: 46px;
@@ -55,7 +55,7 @@ background-image: url("/img/social-icons.png");
     background-position: 25% 0%;
         }
 
-        div.zonaredes h1.tw:hover{
+        div.zonaredes a.tw:hover{
             float: left;
             height: 46px;
             width: 46px;
@@ -63,7 +63,7 @@ background-image: url("/img/social-icons.png");
         background-position: 25% 100%;
             }
 
-        div.zonaredes h1.red{
+        div.zonaredes a.red{
             float: left;
             height: 46px;
             width: 46px;
@@ -71,7 +71,7 @@ background-image: url("/img/social-icons.png");
         background-position: 50% 0%;
             }
 
-            div.zonaredes h1.red:hover{
+            div.zonaredes a.red:hover{
                 float: left;
                 height: 46px;
                 width: 46px;
@@ -80,7 +80,7 @@ background-image: url("/img/social-icons.png");
                 }
 
 
-            div.zonaredes h1.wifi{
+            div.zonaredes a.wifi{
                 float: left;
                 height: 46px;
                 width: 46px;
@@ -88,7 +88,7 @@ background-image: url("/img/social-icons.png");
             background-position: 75% 0%;
                 }
 
-                div.zonaredes h1.wifi:hover{
+                div.zonaredes a.wifi:hover{
                     float: left;
                     height: 46px;
                     width: 46px;
@@ -96,7 +96,7 @@ background-image: url("/img/social-icons.png");
                 background-position: 75% 100%;
                     }
                 
-            div.zonaredes h1.arbol{
+            div.zonaredes a.arbol{
                 float: left;
                 height: 46px;
                 width: 46px;
@@ -105,7 +105,7 @@ background-image: url("/img/social-icons.png");
                 }
 
 
-                div.zonaredes h1.arbol:hover{
+                div.zonaredes a.arbol:hover{
                     float: left;
                     height: 46px;
                     width: 46px;
@@ -134,7 +134,7 @@ div#pie div#partearriba ul li#sobrenosotros div.zonalogo{
             margin-top: 15px;
             }
 
-            div#pie div#partearriba ul li#sobrenosotros div.zonaredes h1{
+            div#pie div#partearriba ul li#sobrenosotros div.zonaredes a{
                 
                 margin-right: 5px;
                 }

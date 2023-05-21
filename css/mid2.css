@@ -4,7 +4,7 @@
 div#mid2 div div.imagen{
 
 width: 230px;
-border: 1px solid red;
+border: 1px solid yellow;
 height: 170px;
 margin-left: 20px;
 margin-top: 10px;
@@ -25,7 +25,7 @@ div#mid2{
 }
 
 
-div#mid2 div div.imagen div.botones h3.lupa{
+div#mid2 div div.imagen div.botones a.lupa{
 
     background-image: url("../img/glyphicons-halflings.png");
     width: 27px;
@@ -39,7 +39,7 @@ top: 21px;
 }
 
 
-div#mid2 div div.imagen div.botones h3.lupa:hover{
+div#mid2 div div.imagen div.botones a.lupa:hover{
 
     background-image: url("../img/glyphicons-halflings-white.png");
   
@@ -52,7 +52,7 @@ transition: all 0.5s linear 0s;
 
 
 
-div#mid2 div div.imagen div.botones h3.categorias{
+div#mid2 div div.imagen div.botones a.categorias{
 
     background-image: url("../img/glyphicons-halflings.png");
     width: 27px;
@@ -65,7 +65,7 @@ top: 21px;
 }
 
 
-div#mid2 div div.imagen div.botones h3.categorias:hover{
+div#mid2 div div.imagen div.botones a.categorias:hover{
 
     background-image: url("../img/glyphicons-halflings-white.png");
     scale: 1.5;
