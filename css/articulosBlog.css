@@ -1,0 +1,152 @@
+
+div.contenedorBlog{
+
+    width: 1170px;
+    height: 788px;
+    border: 1px solid red;
+}
+
+
+div.articulos{
+
+width: 68%;
+height: 24.5%;
+margin: 20px;
+background-color: #222831;
+float: left;
+
+}
+
+div.imagen{
+    float: left;
+width: 200px;
+height: 180px;
+margin: 5px;
+background-image: url(../img/GG-Exterior\ \(1\).jpg);
+
+}
+
+
+div.informacion{
+float: right;
+width: 571px;
+height: 180px;
+margin: 5px;
+}
+
+
+div.texto{
+
+width: 540px;
+height: 125px;
+margin-top:5px;
+margin-left: 5px;
+
+}
+
+
+div.widgets{
+width: 560px;
+height: 35px;
+margin-top:10px;
+margin-left: 5px;
+}
+
+div.texto h1{
+
+width: 560px;
+font-size: 20px;
+color: #FFF2CC;
+background-color: #6B728E;
+}
+
+
+div.texto p{
+
+    width: 500px;
+    font-size: 15px;
+    color: #FFF2CC;
+    margin-left: 0px;
+    margin-top: 15px;
+    height: 60px;
+    }
+
+
+
+    div.texto a {
+        background-color: #6B728E;
+        border-radius: 5px;
+        padding: 5px;
+        color: white;
+        font-size: 13px;
+       
+    }
+
+
+    div.widgets ul li{
+        float: left;
+        width: 20px;
+        height: 20px;
+
+    }
+
+    div.widgets ul li:nth-child(2){
+        margin-left: 150px;
+    }
+
+    div.widgets ul li:nth-child(3){
+
+margin-left: 210px;
+
+    }
+
+   
+
+    
+    div.widgets ul li.fecha {
+       background-image: url(../img/glyphicons-halflings-white.png);
+        background-position: 42% 85.71%;
+    }
+
+    div.widgets ul li.fecha p {
+       width: 80px;
+       margin-left: 30px;
+       margin-top: 2px;
+       font-size: 15px;
+       color: #FFF2CC;
+
+     }
+    
+
+
+    div.widgets ul li.autorArticulo {
+        background-image: url(../img/glyphicons-halflings-white.png);
+        background-position: 37% 0% ;
+     }
+
+
+     div.widgets ul li.autorArticulo p {
+        width: 140px;
+        margin-left: 30px;
+        margin-top: 2px;
+        font-size: 15px;
+        color: #FFF2CC;
+ 
+      }
+
+
+
+     div.widgets ul li.categoriaArticulo {
+        background-image: url(../img/glyphicons-halflings-white.png);
+        background-position: 5% 33% ;
+     }
+
+     
+     div.widgets ul li.categoriaArticulo p {
+        width: 122px;
+        margin-left: 30px;
+        margin-top: 2px;
+        font-size: 15px;
+        color: #FFF2CC;
+ 
+      }
