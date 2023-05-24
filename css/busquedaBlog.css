@@ -1,5 +1,232 @@
 div.busqueda{
 height: 788px; width: 28%   ;
 float: left;
-border: 1px solid blue;
+
 }
+
+div.busqueda input:nth-child(1){
+margin-top: 18px;
+width: 270px;
+float: left;
+}
+
+div.busqueda input:nth-child(2){
+    width: 19px; height: 19px;
+    background-image: url(../img/glyphicons-halflings.png);
+    background-position: 10.3% 0%;
+    float: right;
+    margin-top: 18px;
+    margin-right: 35.5px;
+}
+
+div.busqueda h2.primero{
+    width: 328px;
+    background-color: #6B728E;
+    height: 26px;
+    font-size: 24px;
+margin-top: 60px;
+}
+
+div.busqueda ul.categorias{
+
+margin-top: 20px;
+
+}
+
+div.busqueda ul.categorias li{
+
+margin-bottom: 20px;
+    }
+
+
+    div.busqueda ul.categorias a{
+
+        width: 20px; height: 20px;
+        background-image: url("../img/glyphicons-halflings-white.png");
+        background-position:  0% 68.8%;
+        float: left;
+  
+    }
+
+
+    div.busqueda ul.categorias a:hover{
+
+       
+        background-image: url("../img/glyphicons-halflings.png");
+        
+  
+    }
+
+    div.busqueda h2.segundo{
+        width: 328px;
+        background-color: #6B728E;
+        height: 26px;
+        font-size: 24px;
+    margin-top: 30px;
+    }
+
+
+   ul.posts li div.imagenPost{
+
+    background-image: url("../img/GG-Exterior70.jpg");
+    width: 70px;
+    height: 70px;
+    margin-top: 10px;
+    float: left;
+
+
+}
+
+ul.posts li a.primer{
+    width: 250px;
+    color: black;
+    float: left;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 20px;
+}
+ul.posts li a.primer:hover{
+
+    scale: 1.05;
+    transition: all 2s linear 0s;
+   color: #FFF2CC;
+}
+
+
+ul.posts li a.segundo{
+float: left;
+margin-top: 10px;
+margin-left: 5px;
+color: black;
+width: 250px;
+
+}
+
+
+ul.posts2 li div.imagenPost{
+
+    background-image: url("../img/GG-Exterior70.jpg");
+    width: 70px;
+    height: 70px;
+    margin-left: 0px;
+    float: left;
+    margin-top: 20px;
+
+}
+
+ul.posts2 li a.primer{
+    width: 250px;
+    color: black;
+    float: left;
+    margin-top: 20px;
+    margin-left: 5px;
+    font-size: 20px;
+
+}
+ul.posts2 li a.primer:hover{
+
+    scale: 1.05;
+    transition: all 2s linear 0s;
+   color: #FFF2CC;
+}
+
+p.limpiar{
+    clear: both;
+}
+ul.posts2 li a.segundo{
+float: left;
+margin-top: 10px;
+margin-left: 5px;
+color: black;
+width: 250px;
+
+}
+
+
+ul.posts3 li div.imagenPost{
+
+    background-image: url("../img/GG-Exterior70.jpg");
+    width: 70px;
+    height: 70px;
+    margin-left: 0px;
+    float: left;
+    margin-top: 20px;
+
+}
+
+ul.posts3 li a.primer{
+    width: 250px;
+    color: black;
+    float: left;
+    margin-top: 20px;
+    margin-left: 5px;
+    font-size: 20px;
+
+}
+ul.posts3 li a.primer:hover{
+
+    scale: 1.05;
+    transition: all 2s linear 0s;
+   color: #FFF2CC;
+}
+
+p.limpiar{
+    clear: both;
+}
+ul.posts3 li a.segundo{
+float: left;
+margin-top: 10px;
+margin-left: 5px;
+color: black;
+width: 250px;
+
+}
+
+ul.posts4 li div.imagenPost{
+
+    background-image: url("../img/GG-Exterior70.jpg");
+    width: 70px;
+    height: 70px;
+    margin-left: 0px;
+    float: left;
+    margin-top: 20px;
+
+}
+
+ul.posts4 li a.primer{
+    width: 250px;
+    color: black;
+    float: left;
+    margin-top: 20px;
+    margin-left: 5px;
+    font-size: 20px;
+
+}
+ul.posts4 li a.primer:hover{
+
+    scale: 1.05;
+    transition: all 2s linear 0s;
+   color: #FFF2CC;
+}
+
+p.limpiar{
+    clear: both;
+}
+ul.posts4 li a.segundo{
+float: left;
+margin-top: 10px;
+margin-left: 5px;
+color: black;
+width: 250px;
+
+}
+
+div.busqueda h2.video{
+    width: 328px;
+    background-color: #6B728E;
+    height: 26px;
+    font-size: 24px;
+margin-top: 10px;
+
+}
+
