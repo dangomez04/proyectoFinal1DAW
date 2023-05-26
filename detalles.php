@@ -1,3 +1,29 @@
+<?php
+include ("php/conexion.php");
+
+if (isset($_POST["detalles"])){
+    
+    $id_maquina = $_GET["id_maquina"];
+
+    $sql_detalles = $conexion->query("SELECT * FROM Maquinas WHERE codigo=" +$id_maquina);
+
+
+
+
+}
+?>
+
+
+
+
+
+
+
+
+
+
+
+
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -47,7 +73,7 @@
             <div class="info">
 
                     <div class="titulo">
-                            <h1>TÍTULO DE LA FOTO</h1>
+                            <h1><?php  ?></h1>
                     </div>
 
                  <div class="desc">

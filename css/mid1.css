@@ -14,7 +14,6 @@ div#noticia div.titulo{
     height: 90px;
     margin: 10px;
 
-
 }
 
 
@@ -40,8 +39,9 @@ div.texto p{
 }
 div.texto2 p{
 
-    margin: 0px;
-    font-family: 'Oswald', sans-serif;
+    margin-left: 0px;
+    font-family: 'Oswald', sans-serif;  
+    margin-top: -70px;
 
  }
 
@@ -51,6 +51,7 @@ div.texto2{
     width: 350px;
     height: 70px;
     margin: 10px;
+    margin-top: 80px;
 
 }
 

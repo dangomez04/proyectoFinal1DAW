@@ -1,6 +1,7 @@
 <?php
 include ("php/conexion.php");
-$sql = $conexion->query("SELECT * FROM articulos");
+$sql_articulos = $conexion->query("SELECT * FROM articulos");
+$sql_maquinas = $conexion->query("SELECT * FROM Maquinas LIMIT 8");
 ?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -53,23 +54,19 @@ $sql = $conexion->query("SELECT * FROM articulos");
 
 			<div id="noticia">
 				<div class="titulo"> 
-					<?php while($titulo=$sql->fetch_array()) {?>
-					<h1><?php echo $titulo[1] ?> </h1>
-					<?php } ?>
+					<?php while($fila=$sql_articulos->fetch_array()) {?>
+					<h1><?php echo $fila[1] ?> </h1>
 				</div>
 				<div class="texto">
-					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero velit pariatur obcaecati? Harum
-						quibusdam deserunt tempora autem quasi eos iusto vero vitae excepturi ducimus. Iure explicabo
-						dolorum hic quisquam quos. </p>
+					<p><?php echo $fila[2]?> </p>
 				</div>
 				<div class="texto2">
-					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui quis at enim quam dolore totam
-						cupiditate adipisci quasi asperiores dolorum quas dignissimos, error ullam aliquam.</p>
+					<p><?php echo $fila[5]?> </p>
 				</div>
 
-				
+				<?php } ?>
 				<div class="botonMas">
-					<h3></h3><a href="#">Más...</a>
+					<h3></h3><a target="_blank" href="https://www.2playbook.com/fitness/rsg-group-prepara-entrada-gold-gym-en-espana-nuevas-aperturas-mcfit_8335_102.html">Más...</a>
 				</div>
 
 			</div>
@@ -81,109 +78,37 @@ $sql = $conexion->query("SELECT * FROM articulos");
 
 		<div id="mid2">
 
+		 <?php while($fila2=$sql_maquinas->fetch_array()) {?>
 
-			<div class="noticia1" id="images">
-
-			<div class="imagen">
-				<img src="img/GG-Exterior (1).jpg">
-					
-				<div class="botones">
-				<a href="#" class="lupa"></a>
-				<a href="detalles.php" class="categorias"></a>
-				</div>
-			</div>
-
-
-				<div class="textodebajo">
-					<p>TITULO</p>
-					<p>subtitulo</p>
-
-
-				</div>
-
-
-
-			</div>
-
-
-
-
-
-			<div class="noticia2" id="images">
+			<div class="noticia1">
 
 				<div class="imagen">
-					<img src="img/GG-Exterior (1).jpg"> 
+					<img src="img/<?php echo $fila2[8]?>">
 					
 					<div class="botones">
-						
-						<a href="#" class="lupa"></a>
-						<a href="detalles.php"
-							class="categorias"></a></div>
-				</div>
-				<div class="textodebajo">
-					<p>TITULO</p>
-					<p>subtitulo</p>
-				</div>
-			</div>
-			<div class="noticia3" id="images">
+					<a href="#" class="lupa"></a>
+					<a class="categorias" href="detalles.php?detalles&id_maquina=<?php echo $fila2[0] ?> "></a>
+					</div>
+			    </div>
 
-				<div class="imagen"><img src="img/GG-Exterior (1).jpg"><div class="botones"><a href="#" class="lupa"></a><a href="detalles.php"
-							class="categorias"></a></div>
-				</div>
-				<div class="textodebajo">
-					<p>TITULO</p>
-					<p>subtitulo</p>
-				</div>
-			</div>
-			<div class="noticia4" id="images">
 
-				<div class="imagen"><img src="img/GG-Exterior (1).jpg"><div class="botones"><a href="#" class="lupa"></a><a href="detalles.php"
-							class="categorias"></a></div>
-				</div>
 				<div class="textodebajo">
-					<p>TITULO</p>
-					<p>subtitulo</p>
-				</div>
-			</div>
-			<div class="noticia5" id="images">
+					<p><?php echo $fila2[1]?></p>
+					<p><?php echo $fila2[2]?></p>
 
-				<div class="imagen"><img src="img/GG-Exterior (1).jpg"><div class="botones"><a href="#" class="lupa"></a><a href="detalles.php"
-							class="categorias"></a></div>
-				</div>
-				<div class="textodebajo">
-					<p>TITULO</p>
-					<p>subtitulo</p>
-				</div>
-			</div>
-			<div class="noticia6" id="images">
 
-				<div class="imagen"><img src="img/GG-Exterior (1).jpg"><div class="botones"><a href="#" class="lupa"></a><a href="detalles.php"
-							class="categorias"></a></div>
 				</div>
-				<div class="textodebajo">
-					<p>TITULO</p>
-					<p>subtitulo</p>
-				</div>
-			</div>
-			<div class="noticia7" id="images">
 
-				<div class="imagen"><img src="img/GG-Exterior (1).jpg"><div class="botones"><a href="#" class="lupa"></a><a href="detalles.php"
-							class="categorias"></a></div>
-				</div>
-				<div class="textodebajo">
-					<p>TITULO</p>
-					<p>subtitulo</p>
-				</div>
+				
+
+
 			</div>
-			<div class="noticia8" id="images">
-				<div class="imagen"><img src="img/GG-Exterior (1).jpg"><div class="botones"><a href="#" class="lupa"></a><a href="detalles.php "
-							class="categorias"></a></div>
-				</div>
-				<div class="textodebajo">
-					<p>TITULO</p>
-					<p>subtitulo</p>
-				</div>
-			</div>
+
+			<?php } ?>
+
+
+
+			
 
 
 
