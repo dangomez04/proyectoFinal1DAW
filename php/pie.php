@@ -61,15 +61,15 @@
             </ul>
 
         <ul id="menufooter">
-            <li><a href="index.html">Home</a> </li>
+            <li><a href="index.php">Home</a> </li>
             <li>|</li>
             <li><a href="#">Features</a> </li>
             <li>|</li>
-            <li><a href="#">Gallery</a> </li>
+            <li><a href="http://dangomez.com.es:8080/dangomez/Web/webapp/Validacion.jsp">Entrar</a> </li>
             <li>|</li>
-            <li><a href="#">Blog</a> </li>
+            <li><a href="blog.php">Blog</a> </li>
             <li>|</li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="contacto.php">Contact</a></li>
 
         </ul>
 

@@ -1,11 +1,12 @@
 div.busqueda{
 height: 788px; width: 28%   ;
 float: left;
+margin-top: -601px;
 
 }
 
 div.busqueda input:nth-child(1){
-margin-top: 18px;
+margin-top: 19px;
 width: 270px;
 float: left;
 }
@@ -15,7 +16,7 @@ div.busqueda input:nth-child(2){
     background-image: url(../img/glyphicons-halflings.png);
     background-position: 10.3% 0%;
     float: right;
-    margin-top: 18px;
+    margin-top: 19px;
     margin-right: 35.5px;
 }
 

@@ -12,7 +12,11 @@ div.articulos{
 
 width: 68%;
 height: 24.5%;
-margin: 20px;
+margin-left: 20px;
+margin-right: 20px;
+margin-top: 6px;
+
+margin-bottom: -3px;
 background-color: #222831;
 float: left;
 
@@ -23,7 +27,6 @@ div.imagen{
 width: 200px;
 height: 180px;
 margin: 5px;
-background-image: url(../img/GG-Exterior\ \(1\).jpg);
 
 }
 
@@ -42,6 +45,7 @@ width: 540px;
 height: 125px;
 margin-top:5px;
 margin-left: 5px;
+position: relative;
 
 }
 
@@ -80,7 +84,9 @@ div.texto p{
         padding: 5px;
         color: white;
         font-size: 13px;
-       
+        position: absolute;
+        left: 0px;
+        top: 126px;        
     }
 
 
@@ -88,6 +94,7 @@ div.texto p{
         float: left;
         width: 20px;
         height: 20px;
+        margin-top: 20px;
 
     }
 

@@ -1,6 +1,6 @@
 <?php
 include ("php/conexion.php");
-$sql_articulos = $conexion->query("SELECT * FROM articulos");
+$sql_articulos = $conexion->query("SELECT * FROM articulos where codigo=111");
 $sql_maquinas = $conexion->query("SELECT * FROM Maquinas LIMIT 8");
 ?>
 <!DOCTYPE html>
@@ -83,7 +83,7 @@ $sql_maquinas = $conexion->query("SELECT * FROM Maquinas LIMIT 8");
 			<div class="noticia1">
 
 				<div class="imagen">
-					<img src="img/<?php echo $fila2[8]?>">
+					<img src="img/<?php echo $fila2[8]?>" width="230px" height="">
 					
 					<div class="botones">
 					<a href="#" class="lupa"></a>

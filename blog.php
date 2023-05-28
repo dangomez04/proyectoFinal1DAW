@@ -1,3 +1,18 @@
+<?php
+include ("php/conexion.php");
+
+
+    
+
+    $sql_blog=$conexion->query("SELECT * FROM articulos");
+
+?>
+
+
+
+
+
+
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -34,36 +49,38 @@
 
    
 
-   <div class="contenedorBlog" >      
+   <div class="contenedorBlog" >  
+	
+   <?php while($filablog=$sql_blog->fetch_array()){?>
+
      <div class="articulos">
 
          <div class="imagen">
-
+			<img src="img/<?php echo $filablog[6] ?>" width="200px" height="180px">
 
          </div>
-
 
           <div class="informacion">
 
                  <div class="texto">
-					<h1>INAGURACIÓN GOLD'S GYM</h1>
-					<p>El pasado 23 de mayo de 2023 se inaguró uno de los gimnasios más futuristas del planeta, no te puedes perder la cantidad de novedades que tiene.	</p>
+					<h1><?php echo $filablog[1] ?></h1>
+					<p>	<?php echo $filablog[2] ?></p>
 					<a href="#">Leer más</a>
                   </div>
 
 
-            <div class="widgets">
+       		       <div class="widgets">
 
-				<ul>
-					<li class="fecha"><p>2023-06-22</p></li>
-					<li class="autorArticulo"><p>Daniel Gómez García</p></li>
-					<li class="categoriaArticulo"><p>Novedades</p></li>
+						<ul>
+							<li class="fecha"><p><?php echo $filablog[3] ?></p></li>
+							<li class="autorArticulo"><p><?php echo $filablog[4] ?></p></li>
+							<li class="categoriaArticulo"><p><?php echo $filablog[5] ?></p></li>
 
-				</ul>
+						</ul>
 
 
 
-              </div>
+            	  </div>
 
 
 
@@ -72,10 +89,12 @@
           </div>
 
 
+		
 
 
-        </div>
+    </div>
 
+	<?php }?>
 
 		<div class="busqueda">
 
@@ -125,7 +144,7 @@
 			<p class="limpiar"></p>
 
 			<h2 class="video">Video</h2>
-			<iframe width="328" height="115" src="https://www.youtube.com/embed/HP_l2yLg_WA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			<iframe width="328" height="129" src="https://www.youtube.com/embed/HP_l2yLg_WA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 

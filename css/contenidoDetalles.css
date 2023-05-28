@@ -8,8 +8,13 @@
     div.imagen{
 
     width: 570px; height: 788px;
-    background-image: url("../img/iaaa.jpg");
     float: left;
+    background-color: #E1D4BB;
+    }
+
+    div.imagen img{
+        margin-top: 30px;
+        margin-left: 20px;
     }
 
 
@@ -47,7 +52,7 @@
 
         width: 350px;height: 100px;
         margin: 50px;
-        margin-top: -60px;
+        margin-top: -40px;
     }
 
     div.mastexto p{

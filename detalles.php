@@ -1,11 +1,11 @@
 <?php
 include ("php/conexion.php");
 
-if (isset($_POST["detalles"])){
+if (isset($_GET["detalles"])){
     
-    $id_maquina = $_GET["id_maquina"];
+    $id_maquina = $_GET['id_maquina'];
 
-    $sql_detalles = $conexion->query("SELECT * FROM Maquinas WHERE codigo=" +$id_maquina);
+    $sql_detalles=$conexion->query("SELECT * FROM Maquinas WHERE codigo=$id_maquina");
 
 
 
@@ -58,34 +58,34 @@ if (isset($_POST["detalles"])){
     
     
         <div id="contenido">
-    
+        <?php while($filadetalles=$sql_detalles->fetch_array()){?>
+
             <div class="imagen">
-
-
-
-
+                <img src="./img/<?php echo $filadetalles[8];?>" width="570px" height="600px">
 
 
             </div>
 
-
+      
 
             <div class="info">
 
                     <div class="titulo">
-                            <h1><?php  ?></h1>
+
+                            <h1><?php echo $filadetalles[1];?></h1>
+
+
                     </div>
 
                  <div class="desc">
 
-                    <h3>Pequeña descripción de la foto. Nulla iaculis mattis lorem, quis gravida nunc iaculis ac. Proin tristique tellus in est vulputate luctus</h3>
+                    <h3><?php echo $filadetalles[6];?></h3>
                  </div>
 
 
                  <div class="mastexto">
 
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore incidunt distinctio adipisci. Atque voluptas fugit magnam beatae. Ab nisi tenetur, dolores laudantium soluta dicta. Repellat omnis hic quo laboriosam sequi.</p>
-
+                 <?php echo $filadetalles[7];?>
 
                   </div>
 
@@ -94,16 +94,17 @@ if (isset($_POST["detalles"])){
 
                <div class="parteAbajo">
 
-                 <p>Tipo: Pecho</p>
+                 <p>Tipo: <?php echo $filadetalles[2];?></p>
                  <p>------------------------------------------------------------</p>
-                 <p>Ubicación: Interior</p>
+                 <p>Ubicación: <?php echo $filadetalles[3];?></p>
                  <p>------------------------------------------------------------</p>
-                 <p>Precio: 400</p>
+                 <p>Precio: <?php echo $filadetalles[4];?></p>
                  <p>------------------------------------------------------------</p>
-                 <p>Diseñador: Marc gutierrez</p>
+                 <p>Diseñador: <?php echo $filadetalles[5];?></p>
                  <p>------------------------------------------------------------</p>
 
 
+                 <?php }?>
 
                     <div class="botones">
 
