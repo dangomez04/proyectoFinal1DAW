@@ -1,12 +1,20 @@
 <?php
 include ("php/conexion.php");
 
+if (isset($_GET["categorias"])){
 
-    
+    $categoria = $_GET['categoria'];
 
-    $sql_blog=$conexion->query("SELECT * FROM articulos");
+    $sql_blog=$conexion->query("SELECT * FROM articulos WHERE categoria='$categoria'");
 	$sql_categorias=$conexion->query("SELECT categoria FROM articulos");
-	$sql_lastposts=$conexion->query("SELECT * FROM articulos ORDER BY fecha DESC;")
+
+
+
+
+}
+
+$sql_lastposts=$conexion->query("SELECT * FROM articulos ORDER BY fecha DESC;")
+
 
 ?>
 
@@ -29,7 +37,8 @@ include ("php/conexion.php");
 	<link rel="stylesheet" href="css/pie.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/articulosBlog.css">
-    <link rel="stylesheet" href="css/busquedaBlog.css">
+    <link rel="stylesheet" href="css/busquedaBlogcategorias.css">
+
 
 
 </head>
@@ -54,13 +63,12 @@ include ("php/conexion.php");
    <div class="contenedorBlog" >  
 	
    <?php while($filablog=$sql_blog->fetch_array()){?>
-	<?php
+    <?php
 	 $fecha_mysql = $filablog[3];
 	 $fecha=strtotime($fecha_mysql);
 
 	
 	?>
-
      <div class="articulos">
 
          <div class="imagen">
@@ -115,16 +123,15 @@ include ("php/conexion.php");
 			<?php while($filacategorias=$sql_categorias->fetch_array()){?>
 
 			<ul class="categorias">
-				<a href="categorias.php?categorias&categoria=<?php echo $filacategorias[0]?>"></a><li><?php echo $filacategorias[0] ?></li>
+            <a href="categorias.php?categorias&categoria=<?php echo $filacategorias[0]?>"></a><li><?php echo $filacategorias[0] ?></li>
 				
 
 			</ul>
 			<?php }?>
 			<h2 class="segundo">Posts más recientes</h2>
-
 			<?php while($filalastposts=$sql_lastposts->fetch_array()){?>
 				<?php 
-					 $fecha_mysql = $filablog[3];
+					 $fecha_mysql = $filalastposts[3];
 					 $fecha2=strtotime($fecha_mysql);
 					?>	
 			<div class="contenedorPosts">
@@ -137,7 +144,6 @@ include ("php/conexion.php");
 			<?php }?>
 
 			<p class="limpiar"></p>
-
 
 			<h2 class="video">Video</h2>
 			<iframe width="328" height="129" src="https://www.youtube.com/embed/HP_l2yLg_WA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

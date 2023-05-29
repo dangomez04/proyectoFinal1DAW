@@ -1,0 +1,137 @@
+div.busqueda{
+    height: 788px; width: 28%   ;
+    float: left;
+    margin-top: -14px;
+    
+    }
+    
+    div.busqueda input:nth-child(1){
+    margin-top: 19px;
+    width: 270px;
+    float: left;
+    }
+    
+    div.busqueda input:nth-child(2){
+        width: 19px; height: 19px;
+        background-image: url(../img/glyphicons-halflings.png);
+        background-position: 10.3% 0%;
+        float: right;
+        margin-top: 19px;
+        margin-right: 35.5px;
+    }
+    
+    div.busqueda h2.primero{
+        width: 328px;
+        background-color: #6B728E;
+        height: 26px;
+        font-size: 24px;
+    margin-top: 60px;
+    }
+    
+    div.busqueda ul.categorias{
+    
+    margin-top: 20px;
+    
+    }
+    
+    div.busqueda ul.categorias li{
+    
+    margin-bottom: 20px;
+        }
+    
+    
+        div.busqueda ul.categorias a{
+    
+            width: 20px; height: 20px;
+            background-image: url("../img/glyphicons-halflings-white.png");
+            background-position:  0% 68.8%;
+            float: left;
+      
+        }
+    
+    
+        div.busqueda ul.categorias a:hover{
+    
+           
+            background-image: url("../img/glyphicons-halflings.png");
+            
+      
+        }
+    
+        div.busqueda h2.segundo{
+            width: 328px;
+            background-color: #6B728E;
+            height: 26px;
+            font-size: 24px;
+        margin-top: 30px;
+        }
+    
+        div.contenedorPosts{
+            width: 320px;
+            height: 80px;
+        }
+    
+       ul.posts li div.imagenPost{
+    
+        width: 70px;
+        height: 70px;
+        float: left;
+    
+    
+    }
+
+    div.titulo{
+        width: 235px;
+        float: left;
+        margin-left: 10px;
+        font-weight: bold;
+    }
+
+    ul.posts{
+        margin-top: 5px;
+    }
+    
+    
+    ul.posts li div.titulo a.primer{
+        color: black;
+       
+        font-size: 10px;
+    }
+
+
+ul.posts li div.titulo a.primer:hover{
+    color: #6B728E;
+}
+div.fecha{
+
+    width: 220px;
+    float: left;
+    margin-left: 10px;
+
+}
+
+
+
+ul.posts li div.fecha a.segundo{
+
+    color: #7E1717;
+    font-size: 10px;
+    
+    }
+    
+    
+    
+    
+
+    
+    
+    div.busqueda h2.video{
+        width: 328px;
+        background-color: #6B728E;
+        height: 26px;
+        font-size: 24px;
+    margin-top: 10px;
+    
+    }
+    
+    

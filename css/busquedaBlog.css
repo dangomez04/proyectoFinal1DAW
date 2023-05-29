@@ -13,12 +13,11 @@ float: left;
 
 div.busqueda input:nth-child(2){
     width: 19px; height: 19px;
-    background-image: url(../img/glyphicons-halflings.png);
     background-position: 10.3% 0%;
     float: right;
     margin-top: 19px;
     margin-right: 35.5px;
-}
+    background-image: url(../img/glyphicons-halflings.png);}
 
 div.busqueda h2.primero{
     width: 328px;
@@ -66,161 +65,60 @@ margin-bottom: 20px;
     margin-top: 30px;
     }
 
+    div.contenedorPosts{
+        width: 320px;
+        height: 80px;
+    }
 
    ul.posts li div.imagenPost{
 
-    background-image: url("../img/GG-Exterior70.jpg");
     width: 70px;
     height: 70px;
-    margin-top: 10px;
     float: left;
 
 
 }
 
-ul.posts li a.primer{
-    width: 250px;
+
+div.titulo{
+    width: 235px;
+    float: left;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+
+ul.posts{
+    margin-top: 5px;
+}
+ul.posts li div.titulo a.primer{
     color: black;
+   
+    font-size: 10px;
+}
+ul.posts li div.titulo a.primer:hover{
+    color: #6B728E;
+}
+
+div.fecha{
+
+    width: 220px;
     float: left;
-    margin-top: 10px;
-    margin-left: 5px;
-    font-size: 20px;
-}
-ul.posts li a.primer:hover{
-
-    scale: 1.05;
-    transition: all 2s linear 0s;
-   color: #FFF2CC;
-}
-
-
-ul.posts li a.segundo{
-float: left;
-margin-top: 10px;
-margin-left: 5px;
-color: black;
-width: 250px;
+    margin-left: 10px;
 
 }
 
 
-ul.posts2 li div.imagenPost{
 
-    background-image: url("../img/GG-Exterior70.jpg");
-    width: 70px;
-    height: 70px;
-    margin-left: 0px;
-    float: left;
-    margin-top: 20px;
+ul.posts li div.fecha a.segundo{
 
-}
-
-ul.posts2 li a.primer{
-    width: 250px;
-    color: black;
-    float: left;
-    margin-top: 20px;
-    margin-left: 5px;
-    font-size: 20px;
-
-}
-ul.posts2 li a.primer:hover{
-
-    scale: 1.05;
-    transition: all 2s linear 0s;
-   color: #FFF2CC;
-}
-
-p.limpiar{
-    clear: both;
-}
-ul.posts2 li a.segundo{
-float: left;
-margin-top: 10px;
-margin-left: 5px;
-color: black;
-width: 250px;
+color: #7E1717;
+font-size: 10px;
 
 }
 
 
-ul.posts3 li div.imagenPost{
 
-    background-image: url("../img/GG-Exterior70.jpg");
-    width: 70px;
-    height: 70px;
-    margin-left: 0px;
-    float: left;
-    margin-top: 20px;
-
-}
-
-ul.posts3 li a.primer{
-    width: 250px;
-    color: black;
-    float: left;
-    margin-top: 20px;
-    margin-left: 5px;
-    font-size: 20px;
-
-}
-ul.posts3 li a.primer:hover{
-
-    scale: 1.05;
-    transition: all 2s linear 0s;
-   color: #FFF2CC;
-}
-
-p.limpiar{
-    clear: both;
-}
-ul.posts3 li a.segundo{
-float: left;
-margin-top: 10px;
-margin-left: 5px;
-color: black;
-width: 250px;
-
-}
-
-ul.posts4 li div.imagenPost{
-
-    background-image: url("../img/GG-Exterior70.jpg");
-    width: 70px;
-    height: 70px;
-    margin-left: 0px;
-    float: left;
-    margin-top: 20px;
-
-}
-
-ul.posts4 li a.primer{
-    width: 250px;
-    color: black;
-    float: left;
-    margin-top: 20px;
-    margin-left: 5px;
-    font-size: 20px;
-
-}
-ul.posts4 li a.primer:hover{
-
-    scale: 1.05;
-    transition: all 2s linear 0s;
-   color: #FFF2CC;
-}
-
-p.limpiar{
-    clear: both;
-}
-ul.posts4 li a.segundo{
-float: left;
-margin-top: 10px;
-margin-left: 5px;
-color: black;
-width: 250px;
-
-}
 
 div.busqueda h2.video{
     width: 328px;
