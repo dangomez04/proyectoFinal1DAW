@@ -36,7 +36,7 @@
         </p>
 
         <div class="campos">
-          <form action="mailto:danielgomezgarciaaa@gmail.com" method="post">
+          <form action="confirmacion.php" method="post">
             <div class="iconos">
               <img src="img/user_84308.png" />
             </div>

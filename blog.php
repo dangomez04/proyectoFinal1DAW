@@ -124,7 +124,7 @@ include ("php/conexion.php");
 
 			<?php while($filalastposts=$sql_lastposts->fetch_array()){?>
 				<?php 
-					 $fecha_mysql = $filablog[3];
+					 $fecha_mysql = $filalastposts[3];
 					 $fecha2=strtotime($fecha_mysql);
 					?>	
 			<div class="contenedorPosts">

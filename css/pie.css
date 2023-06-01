@@ -149,11 +149,13 @@ margin-top: 10px;
 
 
 }         
-
 div#partearriba ul li#latestposts h3   {
 
-margin: 20px;
-margin-left: 60px;
+margin-left: 20px;
+margin-top: 20px;
+margin-right: 20px;
+margin-left: 66.5px;
+margin-bottom: 10px;
 
 }
 
@@ -164,12 +166,7 @@ div#partearriba ul li#latestposts h4,p   {
     }
 
 
-    div#partearriba ul li#latestposts div.noticiaFooter   {
-       height: 90px; width: 150px;
-       border: 1px solid yellow ;
-        margin-left: 60px;
-    
-        }
+
 
 
         
@@ -256,6 +253,11 @@ div.noticiaFooter div p{
 }
 
 
+
+
+
+
+
 div.noticiaFooter div.visitas{
     width: 80px;
     height: 20px;
@@ -278,30 +280,118 @@ div.noticiaFooter div.visitas p{
 }
 
 div.tituloPodium{
-    width: 150px;
-    height: 30px;
-    border: 1px solid red;
+    width: 173px;
+    height: 180px;
     margin-left: 60px;
+    margin-top: 5px;
     position: relative;
+
 }
+
+li.parte1 p.uno{
+    text-align: center;
+    margin-top: 0px;
+    width: 110px;
+    height: 28px;
+    float: left;
+    font-size: 10px;
+    font-weight: bold;
+    padding-top: 8px;
+}
+li.parte1 p.dos{
+    text-align: center;
+    margin-top: 20px;
+    width: 110px;
+    height: 48px;
+    float: left;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+li.parte1 p.tres{
+    text-align: center;
+    margin-top: 10px;
+    width: 110px;
+    height: 28px;
+    float: left;
+    font-size: 10px;
+    font-weight: bold;
+    padding-top: 8px;
+}
+
 
 div.tituloPodium a{
     float: left;
     
 }
-div.tituloPodium h4{
-    text-align: center;
+
+
+div.tituloPodium a.dos{
+    margin-top: 20px;
+}
+
+    
+div.tituloPodium a.tres{
+    margin-top: 20px;
+}
+
+div.num p{
+    font-size: 12px;
+    
+    float: left;
+    
+    color: #7E1717;
+}
+
+div.num{
     position: absolute;
-    left: -23px;
-    top: 3px;
-    font-size: 13px;
+    right: -3px;
+    top: 13px;
+}
+div.num2{
+    position: absolute;
+    right: -3px;   
+     top: 67px;
+}
 
-
-
-
+div.num3{
+    position: absolute;
+    right: -3px;
+    top: 137px;
 }
     
+div.num2 p{
+    font-size: 12px;
     
+    float: left;
     
-    
+    color: #7E1717;
+}
+
+
+
+div.num3 p{
+    font-size: 12px;
    
+    
+    float: left;
+    color: #7E1717;
+}
+
+
+div.num img{
+    float: left;
+    margin-left: 2px;
+    margin-top: -1px;
+}
+
+div.num2 img{
+    float: left;
+    margin-left: 2px;
+    margin-top: -1px;
+}
+div.num3 img{
+    float: left;
+    margin-left: 2px;
+    margin-top: -1px;
+}
